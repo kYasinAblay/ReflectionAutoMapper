@@ -20,7 +20,7 @@ namespace ReflectionAutoMapVS2022
             DTOProducts NewDtoProducts =
             ObjectConvert.Convert<Products, DTOProducts>(products);
 
-            Console.WriteLine();
+            Console.WriteLine("Hello New Tactic!");
             Console.ReadKey();
         }
     }
