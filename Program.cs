@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ReflectionAutoMapper
+namespace ReflectionAutoMapVS2022
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -23,6 +19,9 @@ namespace ReflectionAutoMapper
             products.Discount = 2500;
             DTOProducts NewDtoProducts =
             ObjectConvert.Convert<Products, DTOProducts>(products);
+
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

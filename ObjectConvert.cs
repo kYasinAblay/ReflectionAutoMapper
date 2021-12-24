@@ -3,7 +3,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace ReflectionAutoMapper
+namespace ReflectionAutoMapVS2022
 {
     internal static class ObjectConvert
     {
